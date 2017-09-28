@@ -9,4 +9,4 @@ http://codepen.io/MaliciousHex
 
 ===============================================================================
 Template Project Com Ac Shop
-© 2017 by Albert & Harry 
+Â© 2017 by Albert & Harry & Titus 
