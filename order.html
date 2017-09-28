@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Com Ac Shop </title>
+	<link rel="stylesheet" type="text/css" href="css/orderstyle.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/orderscript.js"></script>
+	<script type="text/javascript" src="js/harry_javascript.js"></script>
+	<!-- <script>
+		// var slideIndex = 0;
+		// showSlides();
+	</script> -->
+</head>
+<body>
+	<div id="wrapper"><!-- wrapper starts -->
+		<header><!-- header starts -->
+			<!-- logo starts -->
+			<div id="logo">
+				<img src="images/logo.svg" alt="logo">
+				<h1><i>Com Ac Shop</i></h1>
+			</div>
+			<!-- log ends -->
+
+		<!-- navbar -->
+		<div id="menu">
+
+			<div id="left-bar">
+				<a id="open"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+			</div>
+			
+			<nav>
+			<a id="close"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
+				<ul>
+  <li><a href="index.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;Home</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn"><i class="fa fa-product-hunt fa-fw" aria-hidden="true"></i>&nbsp;Products</a>
+    <div class="dropdown-content">
+      <a href="mouse.html"><i class="fa fa-hand-o-up fa-fw" aria-hidden="true"></i>&nbsp;Mouse</a>
+      <a href="keyboard.html"><i class="fa fa-keyboard-o fa-fw" aria-hidden="true"></i>&nbsp;Keyboard</a>
+      <a href="webcam.html"><i class="fa fa-camera fa-fw" aria-hidden="true"></i>&nbsp;Webcam</a>
+    </div>
+  </li>
+   <li><a href="order.html"><i class="fa fa-send fa-fw" aria-hidden="true"></i>&nbsp;Order</a></li>
+   <li><a href="sponsor.html"><i class="fa fa-users fa-fw" aria-hidden="true"></i>&nbsp;Sponsors</a></li>
+   <li><a href="contactus.html"><i class="fa  fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp;Contact Us</a></li>
+</ul>
+			</nav>
+		</div>
+		<!-- navbar ends -->
+
+		</header>
+		<!-- header ends -->
+
+		<!-- content start here -->
+		<div class="wrapper-content">
+			
+			<div class="content">
+			<fieldset>
+				<div class="content-title">
+					<span>Order</span>
+				</div>
+						<table>
+							<tr>
+								<td id="td-right">Full Name</td>
+								<td id="td-left"><input id="usernameId" placeholder="Your Full Name" type="text" name="nameTxt" required=""></td>
+							</tr>
+							<tr>
+								<td id="td-right">Gender</td>
+								<td id="td-left">
+									<input type="radio" id="maleId" name="gender" value="male">Male
+									<input type="radio" id="femaleId" name="gender" value="female">Female
+								</td>
+							</tr>
+							<tr>
+								<td id="td-right">Phone</td>
+								<td id="td-left"><input type="text" id="phoneId" name="phoneTxt" placeholder="Your Phone Number" required=""></td>
+							</tr>
+							<tr>
+								<td id="td-right">Quantity</td>
+								<td id="td-left"><input type="number" id="qtyId" name="qtyTxt" required=""></td>
+							</tr>
+							<tr>
+								<td id="td-right">Address</td>
+								<td id="td-left"><textarea id="addressId" placeholder="Your Address" required=""></textarea></td>
+							</tr>
+							<tr>
+								<td id="td-right">Product</td>
+								<td id="td-left">
+									<select id="productId">
+										<option value="0">Choose</option>
+										<option value="1">Keyboard x</option>
+										<option value="2">Webcam x</option>
+										<option value="3">Mouse x</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td id="submit-id" colspan="2"><button id="btnSubmit" onclick="validate()">SUBMIT</button></td>
+							</tr>
+							<tr>
+								<td colspan="2"><span id="messageId"></span></td>
+							</tr>
+						</table>
+			</div>
+			</fieldset>
+		</div>
+		<!-- content ends here -->
+
+		<footer>
+			<span> &copy; 2017 by Duet Maut </span>
+		</footer>
+
+	</div><!-- wrapper ends -->
+	
+	
+</body>
+</html>
