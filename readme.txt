@@ -1,12 +1,12 @@
-#FINAL PROJECT HCI</br>
+#FINAL PROJECT HCI
 
-</br>
-UNIVERSITY  : <b>BINA NUSANTARA UNIVERSITY</b> </br>
-COURSE      : <b>COMP6176 - Human and Computer Interaction</b></br>
-LECTURER    : <b>Assistant SLC (Software Laboratory Center)</b></br>
-CLASS       : <b>BA01</b></br>
-NIM         : <b>1901507654</b></br>
-NAME        : <b>HARRY ERMAWAN</b></br>
+
+UNIVERSITY  : BINA NUSANTARA UNIVERSITY
+COURSE      : COMP6176 - Human and Computer Interaction
+LECTURER    : Assistant SLC (Software Laboratory Center)
+CLASS       : BA01
+NIM         : 1901507654
+NAME        : HARRY ERMAWAN
 
 # Reference Link
 
